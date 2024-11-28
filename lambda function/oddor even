@@ -1,0 +1,5 @@
+def Eo (val):
+    if val  %2==0:
+      return 'even'
+    return 'odd'
+print(list(map(Eo,[11,12,13,14])))

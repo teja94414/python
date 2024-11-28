@@ -1,0 +1,19 @@
+def square (n,res=0):
+    while n!=0:
+        rem=n%10
+        res=res+rem**2
+        n=n//10
+    return res
+def happy (dig):
+    while dig >9:
+        dig=square(dig)
+    return dig==1 or dig==7
+print(list(filter(happy,range(50,100))))
+
+        
+    
+
+        
+        
+        
+    

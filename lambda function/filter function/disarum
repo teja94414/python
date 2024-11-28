@@ -1,0 +1,10 @@
+def disarum (num,res=0):
+    dup=num
+    power=len(str(num))
+    while num!=0:
+        rem=num%10
+        res=res+rem**power
+        num//=10
+        power=power-1
+    return res==dup
+print(list(filter(disarum,range(1,100))))

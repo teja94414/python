@@ -1,0 +1,1 @@
+print( {val:('even'if val % 2==0 else'odd')for val in range(1,6)})

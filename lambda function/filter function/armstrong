@@ -1,0 +1,11 @@
+def armstrong (num,res=0):
+    dup=num
+    power=len(str(num))
+    while num!=0:
+        rem=num%10
+        res=res+rem**power
+        num//=10
+    return res==dup
+print(list(filter(armstrong,range(1,50))))
+
+ 

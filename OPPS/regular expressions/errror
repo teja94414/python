@@ -1,0 +1,15 @@
+error
+error are classified into 3 types
+syntax error
+logical error
+exceptions
+
+syntax error
+if user is not flow proper syntax  through one syntax error
+user can find  it easily
+if colon is not given a required position or proper error
+logical error
+if user is not following proper logical but follow proper syntax ten this error are classified logical error
+exceptions
+they are many inbuilt   in python
+zero division name ,file not fund error
